@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-    <style>
+
+    <!-- animation -->
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+   <!-- CSS -->
+
+   <style>
       @import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
       * {
@@ -53,6 +62,42 @@
         text-align: center;
         margin-top: 20px;
       }
+
+      .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .text{
+        line-height: 34px;
+      }
+
+      .drname{
+        font-size: 36px;
+        color: #2c3e50;
+        font-weight: 600;
+      }
+      .degree{
+        font-size:22px;
+        color: #7f8c8d;
+        font-weight: 500;
+      }
+
+      p{
+        font-size: 22px;
+        color: #7f8c8d;
+
+      }
+
+      .main-heading{
+        
+      }
+
+      .bannerimg img{
+        width: 300px;
+        height: 450px;
+      }
     </style>
   </head>
   <body>
@@ -69,5 +114,23 @@
     <!-- navbar end -->
 
     <h1 class="heading">About us</h1>
+
+    <!-- about -->
+
+    <div class="container">
+
+    <div class="text">
+      <p class="animate__animated animate__heartBeat">Hello! I am</p>
+      <p class="drname">Dr Saleha Qasim</p>
+      <p class="degree">B.D.S , R.D.S (Jinnah University)</p>
+
+    </div>  
+      
+    
+    
+    
+    <div class="bannerimg"><img src="./image/drimg.jpg" alt="" width="4301px" height="5492px"></div>
+
+  </div>
   </body>
 </html>
