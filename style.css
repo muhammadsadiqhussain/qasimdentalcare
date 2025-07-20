@@ -65,8 +65,8 @@ ul li a:hover {
   line-height: 35px;
 }
 .image img {
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
   display: flex;
   border-radius: 80px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0);
@@ -194,7 +194,7 @@ footer {
     height: 70px;
   }
   .navlinks li a {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
