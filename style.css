@@ -115,8 +115,12 @@ hr {
  
  
 }
+.card p{
+  color: #7f8c8d;
+  font-size: 18px;
+}
 
-.cardheading {
+.card h3 {
   font-size: 26px;
   color: #2c3e50;
   text-align: center;
@@ -132,8 +136,9 @@ hr {
 }
 
 .card {
-  border: 2px solid #2c3e50;
-  border-radius: 10px;
+  border: 0px solid #2c3e50;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  /* border-radius: 10px; */
   padding: 20px;
   width: 240px;
   display: flex;
@@ -253,6 +258,18 @@ footer {
     text-align: center;
     margin-top: 20px;
   }
+  .card h3{
+    font-size: 22px;
+    
+  }
+  .card p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .card img {
+    width: auto;
+    height: 100%;
+  }
 
   .servicecard {
     flex-direction: column;
@@ -280,8 +297,8 @@ footer {
     padding: 10px;
   }
   .navbar img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
   .navlinks li a {
     font-size: 14px;
